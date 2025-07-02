@@ -8,6 +8,7 @@ app = Flask(__name__)
 def api_root():
     return 'Welcome Vrutansh Patel !!'
 
+
 @app.route('/github', methods = ['POST'])
 def api_gh_message():
     if request.headers['Content-Type'] == 'application/json':
