@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def api_root():
-    return 'Welcome Vrutansh'
+    return 'Welcome Vrutansh Patel !!'
 
 @app.route('/github', methods = ['POST'])
 def api_gh_message():
